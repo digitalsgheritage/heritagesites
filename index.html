@@ -1,1 +1,8 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>新加坡国家古迹</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"><link rel="stylesheet" href="css/styles.css"></head><body><div class="app"><div class="sidebar"><h1>新加坡国家古迹</h1><input id="search" class="search" placeholder="搜索..."><div id="list"></div></div><div id="map"></div></div><script src="https://unpkg.com/leaflet/dist/leaflet.js"></script><script src="js/app.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><title>新加坡国家古迹</title><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"><link rel="stylesheet" href="css/styles.css"></head>
+<body><div class="app"><aside class="sidebar" id="bottomSheet">
+<div class="sheet-toggle" id="sheetToggle"><div class="sheet-handle"></div><div class="sheet-label">浏览古迹 / Monuments</div></div>
+<h1>新加坡国家古迹</h1><p>点击标记或列表查看照片、名称、地址和中文简介。</p>
+<input id="search" class="search" placeholder="搜索中文名、英文名、地址或简介..."><div id="stats"></div><div id="list"></div>
+</aside><main id="map"></main></div><script src="https://unpkg.com/leaflet/dist/leaflet.js"></script><script src="js/app.js"></script></body></html>
